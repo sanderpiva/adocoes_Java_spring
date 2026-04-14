@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Adoções</title>
+    <link rel="stylesheet" href="../css/estilo.css"> </head>
+<body>
+    <h1>Relatório Detalhado de Adoções - Devolvidos</h1>
+    
+    <div class="busca-secao">
+    	<input type="text" id="buscaIDdevolvido" placeholder="Digite nome completo do animal...">
+    	<button type="button" id="btnBuscar">Buscar</button>
+	</div>
+    <table border="1">
+        <thead>
+            <tr>
+            	<th>ID da Adoção</th>
+            	<th>ID do Adotante</th>
+                <th>Adotante</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Animal Adotado</th>
+                <th>Data</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-relatorio">
+            </tbody>
+    </table>
+    <br>
+    <a href="../index.html">Voltar a Home</a>
+
+    <script src="../js/scriptConsultaDevolvida.js"></script>
+</body>
+</html>

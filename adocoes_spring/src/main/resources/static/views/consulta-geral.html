@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Adoções</title>
+    <link rel="stylesheet" href="../css/estilo.css"> </head>
+<body>
+    <h1>Relatório Detalhado de Adoções</h1>
+    <h3>Filtrar animais</h3>
+    <div class="busca-secao">
+    	<input type="text" id="buscaID" placeholder="Digite nome completo do animal...">
+    	<button type="button" id="btnBuscar">Buscar</button>
+
+	</div>
+    <table border="1">
+        <thead>
+            <tr>
+            	<th>ID</th>
+                <th>Adotante</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Animal Adotado</th>
+                <th>Data</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-relatorio">
+            </tbody>
+    </table>
+    <br>
+    <a href="../index.html">Voltar a Home</a>
+
+    <script src="../js/scriptConsulta.js"></script>
+</body>
+</html>

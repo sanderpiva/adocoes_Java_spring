@@ -1,0 +1,36 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Adotantes</title>
+    <link rel="stylesheet" href="../css/estilo.css"> 
+</head>
+<body>
+    <h2>Lista de Adotantes Cadastrados</h2>
+    
+    <div class="busca-secao" >
+        <label for="campoBusca"><strong>Pesquisar Adotante:</strong></label><br><br>
+        <input type="text" id="campoBusca" placeholder="Digite o nome do adotante..." >
+        
+        <button type="button" id="btnTodos" >Ver Todos</button>
+        <button type="button" id="btnRegular" >Filtrar Regulares</button>
+        <button type="button" id="btnBloqueado" >Filtrar Bloqueados</button>
+    </div>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Email</th>
+                <th>Status Dinâmico</th>
+                <th>Operações</th>                
+            </tr>
+        </thead>
+        <tbody id="tabela-adotantes"></tbody>
+    </table>
+    
+    <br>
+    <a href="../index.html">Voltar para Home</a>
+
+    <script src="../js/scriptAdotante.js"></script>
+</body>

@@ -1,0 +1,32 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de Animais</title>
+    <link rel="stylesheet" href="../css/estilo.css"> 
+</head>
+<body>
+    <h2>Lista de Animais Cadastrados</h2>
+    <h3>Filtrar animais disponiveis</h3>
+    <div class="busca-secao">
+    	<input type="text" id="buscaIDdisponivel" placeholder="Digite nome completo do animal...">
+    	<button type="button" id="btnBuscar">Buscar</button>
+    	<button type="button" id="btnLimpar">Recarregar</button>
+	</div>
+    <table border="1">
+        <thead>
+            <tr>
+            	<th>ID</th>
+                <th>Nome</th>
+                <th>Espécie</th>
+                <th>Raça</th>
+                <th>Descrição</th>
+                <th>Disponivel</th>
+                <th>Operações</th>                
+            </tr>
+        </thead>
+        <tbody id="tabela-animais"></tbody>
+    </table>
+    <br>
+    <a href="../index.html">Voltar para Home</a>
+
+    <script src="../js/scriptAnimal.js"></script>
+</body>

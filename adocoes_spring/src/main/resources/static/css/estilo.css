@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse; /* Remove o espaço duplo entre as bordas */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Efeito zebrado para facilitar a leitura */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Destaca a linha quando passa o mouse */
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.menu-principal {
+   display: grid;
+    /* Divide o espaço em 2 colunas de tamanhos iguais (1 fração cada) */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn-home {
+    padding: 20px;
+    background-color: #007bff;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#btnTodos{
+	background-color: #6c757d; color: white;
+}
+
+#btnRegular{
+	background-color: #28a745; color: white;
+}
+
+#btnBloqueado{
+	
+	background-color: #dc3545; color: white;
+}
+
+.busca-secao{
+	margin-bottom: 20px; padding: 15px; background: #f4f4f4; border-radius: 8px;
+}
+
+#campoBusca{
+	width: 300px; padding: 5px;
+}
