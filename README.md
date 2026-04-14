@@ -17,20 +17,16 @@ O sistema foi projetado para permitir uma análise criteriosa dos dados, especia
 * **Busca dos dados** Filtro dinâmico via JavaScript que permite localizar registros pelo **Nome do Animal**, por exemplo.
 * **Relatórios Detalhados:** Uso de **DTOs (Data Transfer Objects)** para consolidar informações de múltiplas tabelas (Adoção, Animal e Adotante) em uma única visão clara.
 * **Interface Limpa:** Tabelas com espaçamento otimizado e tipografia moderna para facilitar a leitura.
-* **Validação dos dados/inputs:** Os dados de entrada são validados antes de qualquer ação.
+* **Validação dos dados/inputs:** Os dados de entrada são validados antes de qualquer ação (frontend - backend).
 * **Base de Dados:** Todos os dados usados são ficiticios. Não tem vinculo com nenhuma pessoa ou animal real.
 
 ---
 
 ## 📸 Preview do Sistema
 
-### 🏠 Painel de Gestão e Relatórios
+![java](https://github.com/user-attachments/assets/f5adb95e-e8ec-401b-889e-9feda2387fd3)
 
-<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/fa033a7f-dffc-496e-b95d-591c3ec3d166" />
-
-
-
-| *Tabelas dinâmicas alimentadas por API REST.* |
+*Tabelas dinâmicas alimentadas por API REST.*
 
 ---
 
